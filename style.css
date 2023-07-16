@@ -1,21 +1,35 @@
 /* Add your custom styling here */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Crimson Text', serif;
     margin: 0;
     padding: 0;
     background-color: #ffecec;
 }
-section h2{
+hr{
+    visibility: hidden;
+}
+section h2 {
     color: #820000;
     font-size: 3rem;
     font-weight: 100;
 }
+
 h1,
 h2 {
     font-family: 'DM Serif Display', serif;
 }
 
-p{
+a {
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+p {
     font-family: 'Crimson Text', serif;
 }
 
@@ -48,7 +62,7 @@ section {
 
 
 
-section p{
+section p {
     font-size: 2rem;
 }
 
@@ -109,12 +123,12 @@ section p{
     color: rgb(223, 221, 221);
 }
 
-.caption .container{
+.caption .container {
     /* background-color: #333; */
     padding: 10px;
 }
 
-#pfp{
+#pfp {
     width: 500px;
     height: 500px;
     border-radius: 10%;
